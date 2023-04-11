@@ -1,8 +1,9 @@
 from django.contrib.auth.models import User
-from . import models
+from .models import Menu
 from rest_framework import serializers
 
 class MenuSerializer(serializers.ModelSerializer):
+    
     class Meta:
         model = Menu
-        fields = ['url', 'username', 'email', 'groups']
+        fields = ['id', 'Title', 'Price', 'Inventory']
