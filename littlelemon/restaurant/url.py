@@ -8,5 +8,6 @@ urlpatterns = [
     path('menu/<int:pk>/', views.SingleMenuItemView.as_view()),
     path('table/', views.TableItemView.as_view()),
     path('table/<int:pk>/', views.SingleTableItemView.as_view()),
-    path('api-token-auth/', obtain_auth_token)
+    path('api-token-auth/', obtain_auth_token),
+    
     ]

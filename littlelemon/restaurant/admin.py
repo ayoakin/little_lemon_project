@@ -6,4 +6,3 @@ from .models import Menu, Table
 
 admin.site.register(Menu)
 admin.site.register(Table)
-
