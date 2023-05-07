@@ -7,7 +7,7 @@ class Menu (models.Model):
     Inventory = models.IntegerField(max_length=5)
 
     def __str__(self):
-        return f'{self.title} : {str(self.price)}'
+        return f'{self.Title} : {str(self.Price)}'
 
     
 
@@ -17,3 +17,5 @@ class Table (models.Model):
     No_of_guests = models.IntegerField(max_length=6)
     BookingDate = models.DateTimeField()
 
+    def __str__(self):
+        return f'{self.Name} : {str(self.No_of_guests)}'
