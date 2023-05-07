@@ -4,3 +4,22 @@ This is an API project for Little Lemon Restaurant that allows booking and menu 
 
 The entire application is built on the Django REST framework  contained within the `littlelemon` folder.
 
+
+## Features
+
+## Guide
+
+## Usage
+
+## API Endpoints
+
+## Features
+
+## Technologies
+
+## Author
+
+## License
+
+
+
