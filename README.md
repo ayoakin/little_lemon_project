@@ -14,7 +14,22 @@ The entire application is built on the Django REST framework  contained within t
 ## API Endpoints
 |Endpoint |Link   |Purpose  |
 | :---:   | :---: | :---: |
+| Restaurant Menu List | http://127.0.0.1:8000/api/users   | __   |
+| :---:   | :---: | :---: |
 | Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+| :---:   | :---: | :---: |
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+| :---:   | :---: | :---: |
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+| :---:   | :---: | :---: |
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+| :---:   | :---: | :---: |
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+| :---:   | :---: | :---: |
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+| :---:   | :---: | :---: |
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+
 
 *  - 
 * Restaurant Menu Single Item - 'http://127.0.0.1:8000/restaurant/menu/<int:pk>/'
