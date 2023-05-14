@@ -12,8 +12,9 @@ The entire application is built on the Django REST framework  contained within t
 ## Usage
 
 ## API Endpoints
+
 |Endpoint |Link   |Method  |Purpose  |
-| :---:   | :---: | :---: |
+| :---:   | :---: | :---: | :---: |
 | Restaurant API User List | http://127.0.0.1:8000/api/users   | POST  | Creates a new user with name, email and password |
 | Restaurant API Valid User | http://127.0.0.1:8000/api/users/me   | GET  | Displays only the current user|
 | Restaurant API Token Create | http://127.0.0.1:8000/api/token/login |POST |Generates access tokens that can be used in other API calls in this project|
