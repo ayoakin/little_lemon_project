@@ -13,7 +13,7 @@ The entire application is built on the Django REST framework  contained within t
 
 ## API Endpoints
 
-* User Registration and Token Generation Endpoints
+* __User Registration and Token Generation Endpoints__
 
 |Endpoint |Link   |Method  |Purpose  |
 | :---:   | :---: | :---: | :---: |
@@ -22,7 +22,7 @@ The entire application is built on the Django REST framework  contained within t
 | Restaurant API Token Create | http://127.0.0.1:8000/api/token/login |POST |Generates access tokens that can be used in other API calls in this project|
 
 
-* Menu Endpoints
+* __Menu Endpoints__
 |Endpoint |Link   |Method  |Purpose  |
 | :---:   | :---: | :---: | :---: |
 | Restaurant Menu List | http://127.0.0.1:8000/restaurant/menu/   |Purpose  | __   |
@@ -32,11 +32,11 @@ The entire application is built on the Django REST framework  contained within t
 | Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | Purpose  |__   |
 
 
-* Table Management Endpoints
-* User Group Management Endpoints
-* Order Management Endpoint
-* Cart Management Endpoint
-* Menu Endpoints
+* __Table Management Endpoints__
+* __User Group Management Endpoints__
+* __Order Management Endpoint__
+* __Cart Management Endpoint__
+* __Menu Endpoints__
 
 
 ## Features
