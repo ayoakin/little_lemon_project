@@ -12,29 +12,18 @@ The entire application is built on the Django REST framework  contained within t
 ## Usage
 
 ## API Endpoints
-|Endpoint |Link   |Purpose  |
+|Endpoint |Link   |Method  |Purpose  |
 | :---:   | :---: | :---: |
-| Restaurant Menu List | http://127.0.0.1:8000/api/users   | __   |
-| :---:   | :---: | :---: |
-| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
-| :---:   | :---: | :---: |
-| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
-| :---:   | :---: | :---: |
-| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
-| :---:   | :---: | :---: |
-| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
-| :---:   | :---: | :---: |
-| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
-| :---:   | :---: | :---: |
-| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
-| :---:   | :---: | :---: |
-| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | __   |
+| Restaurant API User List | http://127.0.0.1:8000/api/users   | POST  | Creates a new user with name, email and password |
+| Restaurant API Valid User | http://127.0.0.1:8000/api/users/me   | GET  | Displays only the current user|
+| Restaurant API Token Create | http://127.0.0.1:8000/api/token/login |POST |Generates access tokens that can be used in other API calls in this project|
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   |Purpose  | __   |
+| Restaurant Menu Single Item | http://127.0.0.1:8000/restaurant/menu/<int:pk>/|Purpose  |__   |
+| Restaurant Table List| http://127.0.0.1:8000/restaurant/table/   | Purpose  |__   |
+| Restaurant Table Single Item  | http://127.0.0.1:8000/restaurant/table/<int:pk>/ |Purpose  | __   |
+| Restaurant Menu List | (http://127.0.0.1:8000/restaurant/menu/)   | Purpose  |__   |
 
 
-*  - 
-* Restaurant Menu Single Item - 'http://127.0.0.1:8000/restaurant/menu/<int:pk>/'
-* Restaurant Table List - 'http://127.0.0.1:8000/restaurant/table/'
-* Restaurant Table Single Item - 'http://127.0.0.1:8000/restaurant/table/<int:pk>/'
 
 ## Features
 
