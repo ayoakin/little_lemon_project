@@ -23,6 +23,7 @@ The entire application is built on the Django REST framework  contained within t
 
 
 * __Menu Endpoints__
+
 |Endpoint |Link   |Method  |Purpose  |
 | :---:   | :---: | :---: | :---: |
 | Restaurant Menu List | http://127.0.0.1:8000/restaurant/menu/   |Purpose  | __   |
